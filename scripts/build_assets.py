@@ -54,3 +54,5 @@ d.text((x,452),"Просто о сложном.",font=f(29,serif=True),fill=(237
 d.text((36,559),"Верхняя Пышма  ·  Екатеринбург  ·  Среднеуральск",font=f(22),fill=(239,243,250,255))
 im.convert("RGB").save("og-preview.jpg",quality=93,subsampling=0,optimize=True)
 print("Generated og-preview.jpg and qr-website.png")
+
+# Build assets on GitHub Actions push
